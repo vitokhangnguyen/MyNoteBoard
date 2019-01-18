@@ -1,0 +1,60 @@
+div.note {
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 0.5cm;
+    width: 5cm;
+    height: 5cm;
+    padding: 0 0.15cm;
+}
+
+div.noteTitle {
+    font-weight: bolder;
+    margin: 0;
+}
+
+div.noteContent {
+    /*overflow-x: auto;*/
+    word-wrap: break-word;
+}
+
+button {
+    margin: 0.1cm;
+}
+
+button.add {
+    margin: 0.2cm;
+}
+
+#form-noteContent {
+    margin-bottom: 0.2cm;
+    width: 90%;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#overlay-form {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5cm;
+    width: 20%;
+    height: 35%;
+    border: 1px black solid;
+    padding: 0.5cm;
+    background-color: whitesmoke;
+}
+
+.form-button {
+    text-align: center;
+}
