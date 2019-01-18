@@ -16,9 +16,18 @@
 <body>
     <header>
         <button type="button" class="add btn btn-primary">Create New Note</button>
-        <div id="dummy" style="display: none;"></div>
     </header>
     <main>
+        <div id="welcomeMsg">
+            <h3>Welcome to my app!</h3>
+            <p>
+                Click the Button on the Left to create a new note.<br>
+                Note can dragged anywhere on the screen.<br>
+                Click the note to edit note.<br>
+                Notes' color are randomly generated with guarantee that no consecutively generated notes have the same color.<br>
+                The app has persistent data storage. Try create/edit some notes and refreshing the page!
+            </p>
+        </div>
         <div id="overlay">
             <form id="overlay-form" class="form" action="#">
                 <label for="form-noteTitle">Title:</label>
